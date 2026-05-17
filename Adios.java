@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Adios
 {
+    public static int restar(int numero, int numero2) {
+    return numero- numero2;
+}
     public static void main(String[] args ){
        int numero1,numero2;
         Scanner scanner = new Scanner(System.in);
@@ -12,6 +15,8 @@ public class Adios
         
          int resultado = numero1 + numero2;
          System.out.println("La suma es "+resultado);
+         int resultadoResta = restar(numero1, numero2);
+System.out.println("La resta es " + resultadoResta);
     
 }
     }
